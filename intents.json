@@ -1,0 +1,160 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+        "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+        "responses": ["Programming, coding, or software development involves writing code to create software applications."],
+        "context_set": ""
+      },
+      {
+        "tag": "resource",
+        "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+        "responses": ["Check out Codecademy, Coursera, or edX for online programming courses."],
+        "context_set": ""
+      },
+      {
+        "tag": "stocks",
+        "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+        "responses": ["I'm sorry, I don't have access to your stock portfolio. Please check your financial platform for details."],
+        "context_set": ""
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like today?", "Give me the weather forecast", "Is it going to rain today?"],
+        "responses": ["I don't have access to real-time weather data. You can check a weather website or app for the latest forecast."],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot", "Appreciate it"],
+        "responses": ["You're welcome!", "Anytime!", "No problem, happy to help!"],
+        "context_set": ""
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["I don't know", "Not sure", "Sorry, I can't answer that"],
+        "responses": ["That's alright. Feel free to ask any other questions you may have."],
+        "context_set": ""
+      },
+      {
+        "tag": "about_bot",
+        "patterns": ["Tell me about yourself", "What can you do?", "Who are you?"],
+        "responses": ["I'm a chatbot designed to provide information and answer your questions.", "I'm here to assist you with various queries."],
+        "context_set": ""
+        },
+        {
+        "tag": "age",
+        "patterns": ["How old are you?", "When were you created?", "Your age?"],
+        "responses": ["I don't have an age. I'm a computer program.", "I was created recently, so I'm quite young!"],
+        "context_set": ""
+        },
+        {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies?", "Do you have any hobbies?", "What do you like to do?"],
+        "responses": ["I don't have hobbies like humans do, but I enjoy helping and providing information.", "My 'hobby' is assisting users like you!"],
+        "context_set": ""
+        },
+        {
+        "tag": "music",
+        "patterns": ["Tell me a music joke", "Sing me a song", "What's your favorite music?"],
+        "responses": ["Sure, here's a music joke: Why did the music teacher go to jail? Because she got caught with too many sharp objects!", "I can't sing, but I can tell you music-related jokes!"],
+        "context_set": ""
+        },
+        {
+        "tag": "movies",
+        "patterns": ["Recommend a good movie", "Tell me a movie trivia", "What's your favorite movie?"],
+        "responses": ["I recommend watching 'The Shawshank Redemption.' It's a classic!", "Did you know that the first film ever made was 'Roundhay Garden Scene' in 1888?"],
+        "context_set": ""
+        },
+        {
+        "tag": "technology",
+        "patterns": ["What's the latest tech news?", "Tell me about AI", "Explain blockchain"],
+        "responses": ["I can provide tech news updates or explain tech concepts. Just ask!", "AI stands for Artificial Intelligence, and blockchain is a decentralized ledger technology."],
+        "context_set": ""
+        },
+        {
+        "tag": "book_recommendation",
+        "patterns": ["Recommend a good book", "Suggest a book to read", "What's your favorite book?"],
+        "responses": ["I recommend 'The Great Gatsby' by F. Scott Fitzgerald. It's a classic!", "I don't have a favorite book, but I can suggest many great ones."],
+        "context_set": ""
+        },
+        {
+        "tag": "food",
+        "patterns": ["What's your favorite food?", "Tell me a food joke", "Recommend a restaurant"],
+        "responses": ["I don't eat, so I don't have a favorite food, but I can share food-related jokes!", "Here's a joke: Why don't scientists trust atoms? Because they make up everything!"],
+        "context_set": ""
+        },
+        {
+        "tag": "travel",
+        "patterns": ["Tell me about a travel destination", "Recommend a travel book", "Share a travel tip"],
+        "responses": ["How about learning about the beautiful city of Paris, France? It's known for its rich history and iconic landmarks like the Eiffel Tower.", "A good travel tip is to pack light and bring versatile clothing when going on a trip."],
+        "context_set": ""
+        },
+        {
+        "tag": "pets",
+        "patterns": ["Do you like pets?", "Tell me a pet-related fact", "Recommend a pet-friendly place"],
+        "responses": ["I don't have preferences, but many people love pets. Did you know that dogs are descendants of wolves?", "You can find pet-friendly parks and cafes in your area for a great time with your furry friends."],
+        "context_set": ""
+        },
+        {
+        "tag": "science",
+        "patterns": ["Tell me a science fact", "Explain a scientific concept", "Recommend a science documentary"],
+        "responses": ["Sure, here's a fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!", "I recommend watching 'Cosmos: A Spacetime Odyssey' for a fascinating journey through the universe."],
+        "context_set": ""
+        },
+        {
+        "tag": "history",
+        "patterns": ["Tell me a historical fact", "Explain a historical event", "Recommend a history book"],
+        "responses": ["Here's a historical fact: The Great Wall of China is over 13,000 miles long and took more than 2,000 years to build!", "I recommend reading 'A People's History of the United States' for an alternative perspective on American history."],
+        "context_set": ""
+        },
+        {
+        "tag": "sports",
+        "patterns": ["Tell me a sports fact", "Explain a sports rule", "Recommend a sports movie"],
+        "responses": ["Did you know that basketball was invented by Dr. James Naismith in 1891?", "I recommend watching 'Remember the Titans' for an inspiring sports movie."],
+        "context_set": ""
+        },
+        {
+        "tag": "health",
+        "patterns": ["Give me a health tip", "Explain a health concept", "Recommend a healthy recipe"],
+        "responses": ["A good health tip is to drink plenty of water throughout the day to stay hydrated.", "I recommend trying a Mediterranean salad with fresh ingredients for a healthy meal."],
+        "context_set": ""
+        },
+        {
+        "tag": "technology_news",
+        "patterns": ["Tell me the latest tech news", "What's happening in the tech world?", "Recommend a tech blog"],
+        "responses": ["I can provide you with the latest tech news updates. Please specify a topic or keyword you're interested in.", "For tech enthusiasts, I recommend checking out the TechCrunch blog for the latest tech trends."],
+        "context_set": ""
+        },
+        {
+        "tag": "fun_fact",
+        "patterns": ["Share a fun fact", "Tell me something interesting", "Fun trivia"],
+        "responses": ["Sure, here's a fun fact: Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!", "Did you know that the shortest war in history was between Britain and Zanzibar on August 27, 1896? It lasted just 38 minutes!"],
+        "context_set": ""
+        },
+        {
+        "tag": "language",
+        "patterns": ["Teach me a new word", "Translate a phrase", "Tell me about language families"],
+        "responses": ["Certainly! A new word for you: 'Serendipity,' which means a fortunate discovery by chance.", "Languages are fascinating! They can be grouped into different language families, like the Indo-European family that includes English, French, and Spanish."],
+        "context_set": ""
+        },
+        {
+        "tag": "art",
+        "patterns": ["Tell me about a famous artist", "Recommend an art museum", "Share an art quote"],
+        "responses": ["One of the most famous artists is Leonardo da Vinci, known for his masterpieces like the Mona Lisa and The Last Supper.", "If you're into art, consider visiting the Louvre Museum in Paris, home to thousands of artworks."],
+        "context_set": ""
+        }
+    ]
+  }
